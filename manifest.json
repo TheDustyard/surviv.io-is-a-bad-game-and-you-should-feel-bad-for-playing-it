@@ -1,0 +1,19 @@
+{
+    "manifest_version": 2,
+    "name": "im bad at a videogame",
+    "version": "1.0",
+    "description": "Enhancements to surviv.io, cause you cant win without cheating",
+    "icons": {
+        "32": "icons/32.png"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "*://surviv.io/*"
+            ],
+            "js": [
+                "dist/inject/overlay.js"
+            ]
+        }
+    ]
+}

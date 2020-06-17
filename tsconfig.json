@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "module": "amd",
+        "noImplicitAny": true,
+        "removeComments": true,
+        "preserveConstEnums": false,
+        "target": "es6",
+        "forceConsistentCasingInFileNames": true,
+        "pretty": true,
+        "outDir": "dist/"
+    },
+    "compileOnSave": true
+}
